@@ -39,8 +39,7 @@ This is, intentionally, a vague definition, so here are a few examples.
 Other parts of the widget tree seldom need to access this kind of state.
 There is no need to serialize it, and it doesn't change in complex ways.
 
-In other words, there is no need to use state management techniques
-(ScopedModel, Redux, etc.) on this kind of state.
+In other words, there is no need to use state management techniques on this kind of state.
 All you need is a `StatefulWidget`.
 
 Below, you see how the currently selected item in a bottom navigation bar is
